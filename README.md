@@ -1,4 +1,4 @@
-# Sum-of-squares Optimization-based Inner-estimation of Maximal Region-of-Attraction for Trigonometric Dynamic Fields
+# Sum-of-squares Optimization-based Inner-estimation of Maximal Region-of-Attraction of Systems with Trigonometric Dynamic Fields
 This repo provides a MATLAB toolbox to inner-estimate maximal region-of-attractions (RoA) of continuous-time dynamical systems, where the dynamic field may include trigonometric terms. Open-source implementations for automated search of Lyapunov function are available for systems with polynomial dynamic fields; however, dynamic model of practical systems (e.g., in robotics, power systems, etc.) often comprise trigonometric terms. This toolbox can handle such systems (see our work [Resilience Indices for Power/Cyberphysical Systems](https://ieeexplore.ieee.org/abstract/document/9198917) for application in classical power system models). 
 
 It employs sum-of-squares optimization-based automated search of Lyapunov functions. This method was used in this work:
