@@ -6,4 +6,4 @@ It employs sum-of-squares optimization-based automated search of Lyapunov functi
 
 This toolbox was tested in MATLAB R2021a on Windows, but it should be backward compatible with prior MATLAB versions. [SOSTOOLS](https://www.cds.caltech.edu/sostools/) and one of its supported backend semidefinite program (SDP) solver are the only dependencies, which needs to be installed first (see [here](https://github.com/oxfordcontrol/SOSTOOLS) for their installations). Then simply clone this repo and add the cloned directory (including all subdirectories) into MATLAB search path. See the example to get started. SOSTOOLS supports various SDP solvers, but Mosek is recommended owing to its superior performance compared to the rest. Mosek is commercial SDP solver, but a free license may be available from Mosek free of cost for academic usage (see [here](https://www.mosek.com/products/academic-licenses/) for more information).
 
-For any questions or comments, please reach me at [talukder@iastate.edu](mailto:talukder@iastate.edu)
+For any questions or comments, please feel free to reach me at [talukder@iastate.edu](mailto:talukder@iastate.edu).
