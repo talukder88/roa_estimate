@@ -26,6 +26,15 @@ run(dyn_field, vars, eq_guess, solver);  % call the tool
 ```
 On successful run of the tool, it outputs the inner-estimate of a maximal RoA in form of a sublevel set of a locally optimal Lyapunov function together with a scalar metric of stability margin as shown below:
 ```
+RoA computation algorithm converged successfully!
+Equilibrium: 
+	     0     0     0     0
+
+Estimated RoA is of form lyap_func <= level, where:
+	lyap_func:	2.014e-9*cos(x1) - 5.856e-24*x4 - 2.172e-23*x2 + 2.222e-9*cos(x3) - 7.17e-23*sin(x1) - 1.058e-23*sin(x3) + 5.786e-10*cos(x1)*cos(x3) + 3.73e-23*cos(x1)*sin(x1) + 4.473e-24*cos(x1)*sin(x3) + 1.744e-23*cos(x3)*sin(x1) + 3.071e-24*cos(x3)*sin(x3) - 7.91e-10*sin(x1)*sin(x3) + 0.03325*cos(x1)^2 + 0.02405*cos(x3)^2 + 0.03325*sin(x1)^2 + 0.02405*sin(x3)^2 - 1.117e-9*x2*x4 + 1.605e-23*x2*cos(x1) + 2.053e-24*x2*cos(x3) + 1.355e-23*x4*cos(x1) - 1.183e-23*x4*cos(x3) - 5.964e-10*x2*sin(x1) - 1.151e-9*x2*sin(x3) - 3.163e-10*x4*sin(x1) - 1.88e-9*x4*sin(x3) - 1.879e-10*x2^2 - 7.292e-10*x4^2 - 0.05731
+ 
+	level:	6.018570
+Stability margin: 0.666402
 ```
 
 **Citation** Please cite this repo as follows if you find it useful:
