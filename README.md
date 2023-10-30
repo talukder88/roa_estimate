@@ -5,7 +5,7 @@
 
 **Installation**: This toolbox was tested in MATLAB R2021a, but it should be backward compatible with prior MATLAB versions. [SOSTOOLS](https://www.cds.caltech.edu/sostools/) and any one of its supported backend SDP solvers are the only two dependencies, which need to be installed first (see [here](https://github.com/oxfordcontrol/SOSTOOLS) for their installation guidelines). Then simply clone this repo and add the cloned directory (including all its subdirectories) into MATLAB's search path. SOSTOOLS supports various SDP solvers, but Mosek is recommended owing to its superior performance compared to the rest. Mosek is a commercial SDP solver, but a free license may be available from Mosek free of cost for academic usage (see [here](https://www.mosek.com/products/academic-licenses/) for more information). The default solver in the tool is [SeDuMi](https://github.com/sqlp/sedumi), although the latter needs to be installed separately.
 
-**Example**: See the example to get started:
+**Example**: See the [example](https://github.com/talukder88/roa_estimate/blob/main/example/ex_1.m) to get started:
 ```
 syms x1 x2 x3 x4  % define the symbolic state variables
 
