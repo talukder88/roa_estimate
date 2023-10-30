@@ -28,7 +28,7 @@ solver = "mosek";   % can be "cdcs", "sdpt3", "csdp", "sdpnal",
 run(dyn_field, vars, eq_guess, solver);  % call the tool
 ```
 
-Please cite this repo as follows if you find it useful:
+Please **cite this repo** as follows if you find it useful:
 
 *S. Talukder, M. Ibrahim and R. Kumar, "Resilience Indices for Power/Cyberphysical Systems," in IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 51, no. 4, pp. 2159-2172, April 2021, doi: 10.1109/TSMC.2020.3018706.*
 
