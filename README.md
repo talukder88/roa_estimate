@@ -28,7 +28,7 @@ On successful run of the tool, it outputs the inner-estimate of a maximal RoA in
 ```
 ```
 
-**Cite** Please cite this repo as follows if you find it useful:
+**Citation** Please cite this repo as follows if you find it useful:
 
 *S. Talukder, M. Ibrahim and R. Kumar, "Resilience Indices for Power/Cyberphysical Systems," in IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 51, no. 4, pp. 2159-2172, April 2021, doi: 10.1109/TSMC.2020.3018706.*
 
