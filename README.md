@@ -24,7 +24,7 @@ solver = "mosek";   % can be "cdcs", "sdpt3", "csdp", "sdpnal",
 
 run(dyn_field, vars, eq_guess, solver);  % call the tool
 ```
-On successful run of the tool, it outputs the inner-estimate of maximal RoA in form of a sublevel set of a locally optimal Lyapunov function as shown below:
+On successful run of the tool, it outputs the inner-estimate of a maximal RoA in form of a sublevel set of a locally optimal Lyapunov function as shown below:
 ```
 ```
 
